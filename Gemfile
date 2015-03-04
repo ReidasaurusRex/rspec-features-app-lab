@@ -45,5 +45,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 
   gem 'capybara'
+
+  gem 'guard-rspec', require: false
 end
 
