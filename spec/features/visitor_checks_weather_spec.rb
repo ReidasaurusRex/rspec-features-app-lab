@@ -22,7 +22,7 @@ feature 'Visitor checks weather' do
     fill_in "What's your zipcode?", with: "40000"
     click_button "Is it going to rain?"
 
-    #verify
+    # verify
     expect(page).to have_content("It's Gon Rain!")
     expect(page).to have_content("Bring an umbrella.")
   end
